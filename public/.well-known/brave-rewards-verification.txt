@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cryptooice.com
+Token: a785524596e1c51eadfee6e12216a2cdcca6c01b52e64e960d694c24ef00c012

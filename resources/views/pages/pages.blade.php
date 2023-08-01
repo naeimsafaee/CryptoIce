@@ -1,0 +1,18 @@
+@extends('index')
+
+@section('content')
+    <section class="main">
+        <div class="row">
+            <div class=" center padding-items col-lg-8 col-md-10 col-sm-12">
+                <h2 class="title-item">
+                    {{ $page->getTranslatedAttribute('title') }}
+                </h2>
+            </div>
+            <div class=" center padding-items col-lg-8 col-md-10 col-sm-12">
+                {!! $page->getTranslatedAttribute('content') !!}
+            </div>
+        </div>
+
+    </section>
+
+@endsection
